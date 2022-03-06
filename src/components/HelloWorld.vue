@@ -1,8 +1,8 @@
 <script setup lang="ts">
 import { ref } from 'vue'
 
-defineProps<{ msg: string }>()
-
+// defineProps<{ msg: string }>()
+const msg = ref('这是我的 hello world')
 const count = ref(0)
 </script>
 
